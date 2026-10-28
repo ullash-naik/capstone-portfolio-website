@@ -36,3 +36,53 @@ A full-stack portfolio and milestone tracking web application where users can do
 | | [Edit] [Delete]                | | [Edit] [Delete]                      | |
 | +--------------------------------+ +--------------------------------------+ |
 +-----------------------------------------------------------------------------+
+
+# Folio – Make a Portfolio in a Minute
+
+Folio is a lightweight, multi-tenant portfolio builder that allows anyone to create a professional, fully-featured portfolio website in under a minute. 
+
+Instead of traditional user accounts and passwords, Folio uses a seamless, passwordless authentication system. When you create a portfolio, the system generates a secure, private edit link. As long as you have that link, you have full administrative control over your page.
+
+## 🚀 Features
+
+* **Instant Setup:** Pick a name and a username to instantly generate a live portfolio.
+* **No Passwords:** Secure authentication via a unique, randomly generated private edit link.
+* **Dynamic Content Management:** Add, edit, and delete entries including:
+  * Selected Work / Projects
+  * Toolkit / Skills (with progress bars)
+  * Journey / Milestones & Achievements
+  * Proof / Certificates
+* **File Uploads:** Upload profile avatars, PDF résumés, project covers, and certificate images directly to local storage.
+* **Contact System:** Built-in contact form with a private inbox for portfolio owners to view messages.
+* **Customization:** Built-in Dark/Light mode toggle and customizable accent colors.
+* **Preloaded Demo:** Automatically seeds a fully-featured example portfolio (`/p/aarav-mehta`) on the first run to demonstrate capabilities.
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+* HTML5 & CSS3 (Custom responsive styling, CSS variables for theming)
+* Vanilla JavaScript (DOM manipulation, Intersection Observers for scroll reveals)
+* Fonts: Fraunces, Hanken Grotesk, JetBrains Mono
+
+**Backend:**
+* **Runtime:** Node.js
+* **Framework:** Express.js
+* **Database:** MongoDB (NoSQL)
+* **File Handling:** Multer (for multipart/form-data image and PDF uploads)
+* **Authentication:** Cryptographic edit keys (`crypto` module) via custom HTTP headers (`x-edit-key`)
+
+## ⚙️ Prerequisites
+
+Before running this project, ensure you have the following installed on your machine:
+1. [Node.js](https://nodejs.org/) (v14 or higher recommended)
+2. [MongoDB](https://www.mongodb.com/try/download/community) (Running locally on default port `27017`)
+3. Git
+
+## 💻 Installation & Setup
+
+To clone and run this project locally from GitHub, run the following commands in your terminal:
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/ullash-naik/capstone-portfolio-website.git](https://github.com/ullash-naik/capstone-portfolio-website.git)
+cd capstone-portfolio-website
