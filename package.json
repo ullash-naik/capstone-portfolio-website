@@ -1,0 +1,30 @@
+{
+  "name": "capstone-portfolio",
+  "version": "1.0.0",
+  "description": "A full-stack portfolio and milestone tracking web application where users can document their professional journey, manage achievements, milestones, and skills via full CRUD operations, and attach certificate documents/images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ullash-naik/capstone-portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ullash-naik/capstone-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/ullash-naik/capstone-portfolio-website#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^7.7.0",
+    "multer": "^2.5.0"
+  }
+}
